@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Arial, Helvica, sans-serif;
+} 
+
+a {
+  text-decoration: nome;
+  cursor: pointer;
+}    
+    
+header {
+   width: 100px;
+   height: 60;
+}  
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}  
+
+header nav.nav-rigth-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-rigth-section a {
+    margin-right: 10px;
+    color:black;
+}   
+
+nav .nav-rigth-section .menu-ícon {
+    background-image: url(https://e7.pngegg.com/pngimages/886/318/png-clipart-computer-icons-edison-state-community-college-google-search-symbol-magnifying-glass-material-logo-google-logo.png )
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}    
+
+nav .nav-rigth-section img {
+    border-radius: 50px,
+    margin-left: 10px;
+    width: 30px;
+}    
+    
+main {
+  margin-top: 150px;
+  text-align: center;
+} 
+
+main .maín-logo {
+  width: 530px;
+  margin 0 auto;
+  margin-bottom: 35px;
+}  
+  
+main .main-logo img {
+  width: 300px;
+}  
+
+main .main-input {
+  width:530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}   
+  
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfle5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+  
+main .main-input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+  
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfele500;
+}
+  
+main .main-input .search-icon {
+  background-image: url()
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width 18px;
+  height: 18px;
+}
+  
+main .main-input .micro-icon {
+  background-image: url(data:image/png;base64,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)
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+}
+
+main .main-input .micro-icon {
+  background-image: url()
+  background-repeat: no -repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+} 
+  
+main .main-buttons {
+  width: 530;
+  margin: 0 auto;
+}
+  
+main .main-buttons div {
+  display: inline-block;
+}
+  
+main .main-buttons button {
+  height: 36;
+  background-color: #f2f2f2;
+  border: 0;
+  font-size: 14px;
+  color: #5f6368;
+  border-radius: 5px;
+  padding-right: 0 15px;
+  margin-right: 15px;
+}
+
+main . .main-buttons button:hover {
+  border: 1px solid #c6c6c6
+  box-shadow: 0 1px 1px #000001;
+  color: #222;
+}  
+
+footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+  
+footer .footer-left {
+  justify-self: left;
+}
+
+footer .footer-rigth {
+  justify-self: right;
+} 
+
+footer ul li a {
+  margin: 10px;
+  color: #5f6368;
+}
